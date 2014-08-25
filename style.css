@@ -1,0 +1,21 @@
+
+/**
+ * Navilytics logo.
+ */
+
+.logo[data-logo="Navilytics"] {
+  width: 2.9936226086956523em;
+}
+
+.logo[data-logo="Navilytics"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Navilytics"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Navilytics"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
